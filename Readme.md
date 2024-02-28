@@ -283,8 +283,8 @@ Die Tabelle der Impfquoten enthält die in der folgenden Tabelle abgebildeten Va
 | Variable | Typ | Ausprägung | Beschreibung |
 | -------- | --- | ---------- | ------------ |
 |Datum |Datum | ```JJJJ-MM-TT``` | Datum, bis zu dem alle durchgeführten und gemeldeten Impfungen berücksichtigt werden |
-|Bundesland   | Text | ```Schleswig-Holstein``` <br/> ... <br/> ```Thüringen```  <br/> ```Deutschland``` | Name des Bundeslandes zuzüglich der Angabe für das gesamte Bundesgebiet
-| BundeslandId_Impfort | Text | ```01```&nbsp;bis&nbsp;```16```&nbsp;:&nbsp;Bundesland&nbsp;ID<br/> ```17``` : Bundesressorts  | Identifikationsnummer des Bundeslandes basierend auf dem Amtlichen Gemeindeschlüssel (AGS). Impfungen des Bundesressorts werden separat ausgewiesen, da die Impfstellen des Bundes ohne exakte Angabe des Impfortes melden  |
+|Bundesland   | Text | ```Schleswig-Holstein``` <br/> ... <br/> ```Thüringen```  <br/> ```Deutschland```<br /> ```Bundesressorts``` | Name des Bundeslandes zuzüglich der Angabe für das gesamte Bundesgebiet
+| BundeslandId_Impfort | Text | ```00```: Deutschland <br />```01```&nbsp;bis&nbsp;```16```&nbsp;:&nbsp;Bundesland&nbsp;ID<br/> ```17``` : Bundesressorts   | Identifikationsnummer des Bundeslandes basierend auf dem Amtlichen Gemeindeschlüssel (AGS). Impfungen des Bundesressorts werden separat ausgewiesen, da die Impfstellen des Bundes ohne exakte Angabe des Impfortes melden  |
 |Impfungen_gesamt | natürliche Zahl |  ```≥0``` | Gesamtzahl der aller verabreichten Impfungen|
 |Impfungen_gesamt_min1 | natürliche Zahl |  ```≥0``` | Gesamtzahl mindestens einmal Geimpfter |
 |Impfungen_gesamt_00bis04_min1 | natürliche Zahl |  ```≥5``` oder ```NA``` | Gesamtzahl der Personen im Alter von 0 bis 4 Jahren, die in der Variable Impfungen_gesamt_min1 enthalten sind |
